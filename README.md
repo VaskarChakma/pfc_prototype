@@ -26,7 +26,7 @@ This repository gives a statistical test that answers yes or no, with a proven e
 
 ---
 
-## 📡 Background
+##  Background
 
 In 5G-Advanced and 6G, AI-based CSI feedback splits one neural network across two devices.
 The **UE** runs an encoder that compresses the channel into a short message.
@@ -40,7 +40,7 @@ After deployment, every vendor keeps updating its own model. It retrains on new 
 
 ---
 
-## ⚙️ How it works
+##  How it works
 
 ```mermaid
 flowchart LR
@@ -67,7 +67,7 @@ For *M* partners at once (*j* = 1) the bound is *M*/(*K*+*M*) + α. The test nee
 
 ---
 
-## 📊 Results
+## Results
 
 Full study, both sides of the link, MATLAB R2025b. Partner results are measured on independent channels that the vendor never uses.
 
@@ -96,7 +96,7 @@ Full study, both sides of the link, MATLAB R2025b. Partner results are measured 
 
 ---
 
-## 🚀 Quick start
+##  Quick start
 
 **Requirements**
 
@@ -135,7 +135,7 @@ report.riskBoundPerPartner     % j/(K+1) + alpha
 report.riskBoundAllPartners    % M/(K+M) + alpha
 ```
 
-### ✅ Verify the rule
+###  Verify the rule
 
 ```matlab
 runtests("tPfcCertify")   % 7 requirement tests, base MATLAB only
@@ -143,7 +143,7 @@ runtests("tPfcCertify")   % 7 requirement tests, base MATLAB only
 
 ---
 
-## 🗂️ Code map
+## Code map
 
 | Stage | Files |
 |---|---|
@@ -159,7 +159,7 @@ runtests("tPfcCertify")   % 7 requirement tests, base MATLAB only
 
 ---
 
-## 🛣️ Roadmap
+## Roadmap
 
 - [x] MATLAB prototype, both sides of the link, 62 updates
 - [x] Monte Carlo check of Theorem 1
@@ -172,20 +172,6 @@ runtests("tPfcCertify")   % 7 requirement tests, base MATLAB only
 
 ---
 
-## 📝 Citation
-
-If you use this code, please cite:
-
-```bibtex
-@misc{pfc2026,
-  title  = {Partner-Free Compatibility Certification for Two-Sided {AI} {CSI} Feedback
-            in Multi-Vendor {6G} Networks},
-  author = {[Author names]},
-  year   = {2026},
-  note   = {MATLAB prototype},
-  url    = {https://github.com/[user]/[repository]}
-}
-```
 
 ## 📚 Key references
 
