@@ -10,7 +10,7 @@
 [![Tests](https://img.shields.io/badge/requirement_tests-7%2F7_passing-2E8B57)](#-verify-the-rule)
 [![3GPP](https://img.shields.io/badge/3GPP-Rel--20_two--sided_CSI-E07B00)](#-background)
 
-<img src="docs/overview.png" alt="Overview: the problem, partner-free certification, and MATLAB results" width="100%">
+<img src="overview.jpg" alt="Overview: the problem, partner-free certification, and MATLAB results" width="100%">
 
 **Can a vendor update its half of a two-sided AI model without seeing the other half?**
 This repository gives a statistical test that answers yes or no, with a proven error bound.
