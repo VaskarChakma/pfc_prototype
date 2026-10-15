@@ -15,13 +15,6 @@
 **Can a vendor update its half of a two-sided AI model without seeing the other half?**
 This repository gives a statistical test that answers yes or no, with a proven error bound.
 
-[Background](#-background) ·
-[How it works](#-how-it-works) ·
-[Results](#-results) ·
-[Quick start](#-quick-start) ·
-[Code map](#-code-map) ·
-[Citation](#-citation)
-
 </div>
 
 ---
