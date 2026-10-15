@@ -1,0 +1,193 @@
+{
+  "mode": "full",
+  "started": "14-Oct-2026 14:22:50",
+  "unitTests": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7
+  },
+  "stress": {
+    "totals": {
+      "updates": 62,
+      "accepted": 28,
+      "wrongKeepCert": 0,
+      "wrongKeepCertStd": 0,
+      "wrongKeepCertStress": 0,
+      "cautiousReject": 7,
+      "wrongKeepProvenance": 27,
+      "needlessAlways": 35,
+      "partnerChecksAcceptedStd": 224,
+      "brokenAcceptedStd": 0,
+      "partnerChecksAcceptedStress": 168,
+      "brokenAcceptedStress": 0,
+      "rankEventsStd": 25,
+      "rankCasesStd": 496,
+      "rankEventsStress": 90,
+      "rankCasesStress": 372
+    },
+    "rankRateStd": 0.05040322580645161,
+    "rankRateStress": 0.24193548387096775,
+    "rankRatePredicted": 0.0625,
+    "cautiousRejections": [
+      "nw/joint_retrain_ref_pair (true worst -0.0090)",
+      "nw/weight_noise_0.08 (true worst -0.0080)",
+      "nw/prune_25pct (true worst -0.0084)",
+      "ue/ft_mix_1500 (true worst -0.0078)",
+      "ue/weight_noise_0.15 (true worst -0.0096)",
+      "ue/prune_35pct (true worst -0.0078)",
+      "ue/fixed_point_int5 (true worst -0.0098)"
+    ],
+    "ownPairSGCS": [
+      0.570829332,
+      0.570829332
+    ],
+    "bestCertifiedDriftGain": {
+      "side": "ue",
+      "name": "proxy_ft_old1_anchor0",
+      "accept": true,
+      "certificate": -0.003672563936006245,
+      "trueWorst": -0.0019903567067037025,
+      "partnerDriftSGCSOld": 0.43753308909279959,
+      "partnerDriftSGCSNew": 0.477138163787978
+    },
+    "fixedPoint": [
+      {
+        "side": "nw",
+        "name": "fixed_point_int8",
+        "accept": true,
+        "certificate": -0.0029509719252296257,
+        "trueWorst": -0.00043024243973195555,
+        "partnerDriftSGCSOld": 0.45473492571285795,
+        "partnerDriftSGCSNew": 0.4544452450105122
+      },
+      {
+        "side": "nw",
+        "name": "fixed_point_int6",
+        "accept": true,
+        "certificate": -0.0095219181220777844,
+        "trueWorst": -0.0070714872938891253,
+        "partnerDriftSGCSOld": 0.45473492571285795,
+        "partnerDriftSGCSNew": 0.44979625514575411
+      },
+      {
+        "side": "nw",
+        "name": "fixed_point_int4",
+        "accept": false,
+        "certificate": -0.10917103997200439,
+        "trueWorst": -0.10767235822727284,
+        "partnerDriftSGCSOld": 0.45473492571285795,
+        "partnerDriftSGCSNew": 0.38027379555361612
+      },
+      {
+        "side": "nw",
+        "name": "fixed_point_int7",
+        "accept": true,
+        "certificate": -0.0043610274054799785,
+        "trueWorst": -0.0018098365844537814,
+        "partnerDriftSGCSOld": 0.45473492571285795,
+        "partnerDriftSGCSNew": 0.45354142146451132
+      },
+      {
+        "side": "nw",
+        "name": "fixed_point_int5",
+        "accept": false,
+        "certificate": -0.031782875917790186,
+        "trueWorst": -0.029431763595590989,
+        "partnerDriftSGCSOld": 0.45473492571285795,
+        "partnerDriftSGCSNew": 0.43383071678025381
+      },
+      {
+        "side": "ue",
+        "name": "fixed_point_int8",
+        "accept": true,
+        "certificate": -0.0029371650688088304,
+        "trueWorst": -0.00016938666595766943,
+        "partnerDriftSGCSOld": 0.43753308909279959,
+        "partnerDriftSGCSNew": 0.43741723469325472
+      },
+      {
+        "side": "ue",
+        "name": "fixed_point_int6",
+        "accept": true,
+        "certificate": -0.0049930251387234406,
+        "trueWorst": -0.0018061724165454507,
+        "partnerDriftSGCSOld": 0.43753308909279959,
+        "partnerDriftSGCSNew": 0.43629118800163269
+      },
+      {
+        "side": "ue",
+        "name": "fixed_point_int4",
+        "accept": false,
+        "certificate": -0.042314199023052119,
+        "trueWorst": -0.044205136327072979,
+        "partnerDriftSGCSOld": 0.43753308909279959,
+        "partnerDriftSGCSNew": 0.41482915622847422
+      },
+      {
+        "side": "ue",
+        "name": "fixed_point_int7",
+        "accept": true,
+        "certificate": -0.0033769788334251684,
+        "trueWorst": -0.0006000865974153082,
+        "partnerDriftSGCSOld": 0.43753308909279959,
+        "partnerDriftSGCSNew": 0.43702925954546246
+      },
+      {
+        "side": "ue",
+        "name": "fixed_point_int5",
+        "accept": false,
+        "certificate": -0.011708328503107631,
+        "trueWorst": -0.0097773648236567784,
+        "partnerDriftSGCSOld": 0.43753308909279959,
+        "partnerDriftSGCSNew": 0.433496356010437
+      }
+    ]
+  },
+  "theorem": {
+    "worstCase": [
+      [
+        9,
+        1,
+        0.02,
+        0.15000000000000002
+      ],
+      [
+        15,
+        1,
+        0.012666666666666666,
+        0.1125
+      ],
+      [
+        15,
+        2,
+        0.03,
+        0.175
+      ],
+      [
+        19,
+        1,
+        0.0066666666666666671,
+        0.1
+      ]
+    ],
+    "tightness": [
+      [
+        9,
+        0.09465,
+        0.1
+      ],
+      [
+        15,
+        0.06075,
+        0.0625
+      ]
+    ]
+  },
+  "accuracy": {
+    "eTypeIILike": 0.68788065466952442,
+    "eTypeIILikeCoefficients": 9,
+    "eTypeIILikeBits": 122.70911673874804,
+    "mlp2048": 0.646285
+  },
+  "finished": "14-Oct-2026 17:33:29"
+}
